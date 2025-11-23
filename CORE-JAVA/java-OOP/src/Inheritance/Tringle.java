@@ -3,7 +3,7 @@ package Inheritance;
 public class Tringle extends Shape {
 
 	private int base;
-	private int height;
+	private int hight;
 	
 	public int getBase() {
 		return this.base;
@@ -12,12 +12,12 @@ public class Tringle extends Shape {
 		this.base = base;
 	}
 	public int getHeight() {
-		return this.height;
+		return this.hight;
 	}
-	public void setHeight(int height) {
-		this.height = height;
+	public void setHeight(int hight) {
+		this.hight = hight;
 	}
 	public void getArea() {
-		System.out.println("Tringle Area");
+		System.out.println("Area of Tringle: " + (base * hight) / 2.0);
 	}
 }

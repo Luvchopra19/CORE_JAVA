@@ -11,6 +11,6 @@ public void setRadius (int radius) {
 	this.radius = radius;
 }
 public void getArea() {
-	System.out.println("Circle Area");
+	System.out.println("area of circle: " + (Math.PI * radius * radius));
 }
 }

@@ -18,6 +18,6 @@ public void setWidth(int width) {
 	this.width = width;
 }
 public void getArea() {
-	System.out.println("Rectangle Area");
+	System.out.println("area of rectangle: " + (length * width));
 }
 }
