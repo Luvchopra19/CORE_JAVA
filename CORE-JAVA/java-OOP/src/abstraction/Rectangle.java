@@ -1,4 +1,4 @@
-package Overriding;
+package abstraction;
 
 public class Rectangle extends Shape {
 	
@@ -18,7 +18,7 @@ public class Rectangle extends Shape {
 	 this.width = width;
  }
  @Override
- public void area() {
-	 System.out.println("Area of rectangel: " + (length * width));
+ public double area() {
+	 return length * width;
  }
 }

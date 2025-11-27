@@ -1,7 +1,6 @@
-package Overriding;
+package abstraction;
 
-public class Tringle extends Shape{
-	
+public class Tringle extends Shape {
 	private int hight;
 	private int base;
 	
@@ -18,7 +17,7 @@ public class Tringle extends Shape{
 		this.base = base;
 	}
 	@Override
-	public void area () {
-		System.out.println("Area of Tringle: " + ((base * hight)/2.0));
+	public double area() {
+		return (base * hight/2.0);
 	}
 }
