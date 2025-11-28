@@ -20,7 +20,7 @@ public class Shape {
 	public void area() {
 		System.out.println("area not private by child class");
 	}
-public static Shape getShape(int i) {
+	public static Shape getShape(int i) {
 	
 	if(i == 0) {
 		return new Circle();
