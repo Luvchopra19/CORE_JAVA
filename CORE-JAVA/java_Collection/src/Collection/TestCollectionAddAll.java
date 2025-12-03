@@ -39,10 +39,14 @@ public class TestCollectionAddAll {
 	System.out.println("c1 is empty: " + c1);
 	
 	c1.containsAll(c2);
-	System.out.println(c2);
+	System.out.println("contain All: " + c2);
 	
-	c2.clear();
+	
+	System.out.println("Is Empty: " + !c1.isEmpty());
+	
+	c2.clear();	
 	System.out.println("affter clear elements c2: " + c2);
+	
 	
 	}
 
