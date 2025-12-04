@@ -10,7 +10,7 @@ public class TestCollection {
 		Collection c = new ArrayList();
 			
 		c.add(12);
-		c.add("Luv");
+		c.add("Rays");
 		c.add('P');
 		c.add(true);
 		c.add(12.456);
